@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+   <main>
+    <section class="vidget">
+        <div class="map">
+            <a href="https://yandex.ru/maps/54/yekaterinburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Екатеринбург</a>
+            <a href="https://yandex.ru/maps/54/yekaterinburg/?ll=60.600726%2C56.840226&utm_medium=mapframe&utm_source=maps&z=17.34" style="color:#eee;font-size:12px;position:absolute;top:14px;">Екатеринбург — Яндекс Карты</a>
+            <iframe src="https://yandex.ru/map-widget/v1/?ll=60.600726%2C56.840226&z=17.34" width="300" height="300" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+        <div class="location">
+            <input type="text" placeholder="Широта">
+            <input type="text" placeholder="Долгота"><br>
+            <button type="submit">Показать погоду</button>
+        </div>
+        <div class="weather">
+            <div>
+                <p class="temperature">28°C</p>
+                <p class="wind">5 м/с</p>
+            </div>
+            <img src="/img/weather/clouds.png" width="100" height="75">
+        </div>
+    </section>
+   </main>
+</body>
+</html>
