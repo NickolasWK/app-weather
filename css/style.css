@@ -5,16 +5,29 @@ body {
     line-height: auto;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget {
+    background-color: darkgrey;
+    width: 300px;
+    height: 530px;
+    padding: 10px;
+    margin-left: 15px;
+}
+
 .map {
     position: relative;
     overflow: hidden;
 }
 
-.location {
+form {
     width: 300px;
 }
 
-.location input {
+form input {
     width: 300px;
     font-size: 18px;
     position: relative;
@@ -61,4 +74,9 @@ button {
 
 .wind {
     margin: 0;
+}
+
+.weather img {
+    margin: auto;
+    margin-right: 10px;
 }
